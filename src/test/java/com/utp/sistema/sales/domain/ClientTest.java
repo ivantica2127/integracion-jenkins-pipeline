@@ -23,7 +23,7 @@ class ClientTest {
             Client client = new Client();
             client.setId(-1);
         });
-        String expectedMessage = "Id cannot be negative";
+        String expectedMessage = "Id cannot be negative XX";
         String actualMessage = exception.getMessage();
         assertTrue(actualMessage.contains(expectedMessage));
     }
